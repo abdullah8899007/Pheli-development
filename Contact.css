@@ -1,0 +1,202 @@
+.logo{
+    border-radius: 20px;
+    width: 125px;
+}
+h1 {
+    
+    font-size: 56px;
+    text-align: center;
+    color: white;
+}
+
+.container{
+display: flex;
+justify-content: center;
+}
+
+.contain form {
+    padding: 9%;
+    font-size: 18px;
+  
+}
+
+#B1 {
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#fname {
+   
+
+    width: 500px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+::placeholder{
+
+    color: white
+    
+    }
+    
+#message {
+  
+width: 500px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+label{
+    color: white;
+    font-style:initial;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaperflare.com_wallpape.jpg);
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin:0 20px ;
+position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.content{
+    
+    margin-right: 500px;
+    margin-left: 500px;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+
+}
+.content p{
+    margin: 30px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: whitesmoke;
+}
+.button{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .counter {
+    display: inline-flex;
+    color: aliceblue;
+    
+    justify-content: center;
+    margin-top: 32%;
+    margin-left: 2%;
+    width: 30%;
+  }
+  
+  
+  .counter-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .counter-number {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+ 
+  .counter-title {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-left: 10%;
+  }
+  
+
